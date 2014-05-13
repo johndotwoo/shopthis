@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shoppify Yo' List!</title>
+	
+	<!-- Base style -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Foundation CSS sheets and Modernizr -->
+	<link rel="stylesheet" href="foundation/css/normalize.css">
+  	<link rel="stylesheet" href="foundation/css/foundation.css">
+  	<script src="foundation/js/vendor/modernizr.js"></script>
+  	<!-- Font Awesome 4.0.3 -->
+	<link rel="stylesheet" href="font-awesome.css">
+</head>
+
+<body>
+	<nav class="top-bar">
+		<ul class="title-area">
+			<li class="name"><h1><a href="index.html">Shoppify Yo' List!</a></h1></li>
+		</ul>
+		<section class="top-bar-section">
+			<ul class="right">
+				<li><a href="#">About the Webapp</a></li>
+			</ul>
+		</section>
+	</nav>
+
+	<div class="row">
+      <div class="large-12 columns">
+        <div class="panel">
+        
+        	<h2>Organize with Shoppify Yo' List!</h2>
+        		<br>
+        	<h4>Features:</h4>
+        	<ul>
+        		<li>Type in your item and click "Add me!" to add to the list</li>
+        		<li>Click on an item to cross out</li>
+        		<li>Double click to delete</li>
+        		<li>Click, drag and drop an item to reorder</li>
+       		</ul>
+       			<br>
+       	    <div class="row">
+      			<div class="large-10 columns">
+         			<input type="text" id="right-label" placeholder="Next up on da' list...">
+        		</div>
+      		  	<div class="large-2 columns">
+          			<a href="#" class="button tiny left">Add me!</a>
+      			</div>
+        	</div>
+				<br>
+        	<div class="shopping-list row">
+  				<div class="large-3 columns"></div>
+  				<div class="large-5 large-centered columns">
+  					<ul class="small-block-grid-1 text-center">
+	  					<li id="shopping-list">Bulleit Rye <a href="#" class="button alert tiny right">Remove me!</a></li>
+	  					<li id="shopping-list">Chobani Yogurt <a href="#" class="button alert tiny right">Remove me!</a></li>
+	  					<li id="shopping-list">Sharp cheddar cheese <a href="#" class="button alert tiny right">Remove me!</a></li>
+	  					<li id="shopping-list">Tostitos chips <a href="#" class="button alert tiny right">Remove me!</a></li>
+					</ul>										
+  				</div>
+  				<div class="large-4 columns"></div>
+			</div>
+    	
+    	</div>
+      </div>
+    </div>
+
+    <footer class="text-center">
+   		<h5>crafted with pride by johndotwoo</h5>
+		<a href="http://www.github.com/johndotwoo"><i class="fa fa-github-square fa-3x"></i></a>
+    </footer>
+
+	<!--Foundation JS/JQ scripts -->
+	<script src="foundation/js/vendor/jquery.js"></script>
+	<script src="foundation/js/foundation.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+</body>
+
+</html>
