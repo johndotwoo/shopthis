@@ -6,5 +6,7 @@ $(document).ready(function() {
 
 	$('#shopping-list').on('click','.button.alert.tiny.right',function() {
 		$(this).closest('li').remove();
-	});
+	})
+
+	$('#shopping-list').sortable();
 });
